@@ -30,7 +30,9 @@
         android:layout_gravity="start"
         android:background="@color/white"
         app:menu="@menu/drawer_view"
+
         app:headerLayout="@layout/nav_header"/>
+<!--    test github-->
 
 
 
