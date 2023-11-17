@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "fpoly.hoangphph35249.duan1"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "fpoly.hoangphph35249.duan1"
