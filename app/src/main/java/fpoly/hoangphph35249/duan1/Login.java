@@ -7,15 +7,17 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class Login extends AppCompatActivity {
+    EditText edUserName, edPassWord;
+    Button btnLogin, btnCancel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        EditText edUserName = findViewById(R.id.edUserName);
-        EditText edPassWord = findViewById(R.id.edPassword);
-        Button btnLogin = findViewById(R.id.btnLogin);
-        Button btnCancel = findViewById(R.id.btnCancel);
+         edUserName = findViewById(R.id.edUserName);
+         edPassWord = findViewById(R.id.edPassword);
+         btnLogin = findViewById(R.id.btnLogin);
+         btnCancel = findViewById(R.id.btnCancel);
     }
 }
