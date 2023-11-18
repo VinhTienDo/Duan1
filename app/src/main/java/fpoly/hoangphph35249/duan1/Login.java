@@ -8,7 +8,7 @@ import android.widget.EditText;
 
 public class Login extends AppCompatActivity {
     EditText edUserName, edPassWord;
-    Button btnLogin, btnCancel;
+    Button btnLogin, btnRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,6 @@ public class Login extends AppCompatActivity {
          edUserName = findViewById(R.id.edUserName);
          edPassWord = findViewById(R.id.edPassword);
          btnLogin = findViewById(R.id.btnLogin);
-         btnCancel = findViewById(R.id.btnCancel);
+         btnRegister = findViewById(R.id.btnRegister);
     }
 }
