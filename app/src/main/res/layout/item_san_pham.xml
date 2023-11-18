@@ -23,7 +23,16 @@
         android:layout_margin="5dp"
         android:layout_weight="10">
         <TextView
-            android:id="@+id/tvTensanpham"
+            android:id="@+id/tvMaSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Mã sản phẩm:"/>
+
+        <TextView
+            android:id="@+id/tvTenSP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
@@ -31,7 +40,7 @@
             android:textColor="@color/black"
             android:text="Tên sản phẩm:"/>
         <TextView
-            android:id="@+id/tvGiasanpham"
+            android:id="@+id/tvGiaSP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
