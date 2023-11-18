@@ -32,29 +32,29 @@
                 android:layout_margin="10dp"
                 android:layout_weight="10">
                 <TextView
-                    android:id="@+id/tvMaTT"
+                    android:id="@+id/tvMaQL"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:textSize="14dp"
-                    android:text="MaTT"/>
+                    android:textSize="20dp"
+                    android:text="MaQL: "/>
                 <TextView
-                    android:id="@+id/tvTenTT"
+                    android:id="@+id/tvTenQL"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:text="TenTT"/>
+                    android:text="TenQL:"/>
                 <TextView
                     android:id="@+id/tvMatKhau"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="14dp"
+                    android:textSize="20dp"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:text="MatKhau"/>
+                    android:text="MatKhau:"/>
             </LinearLayout>
             <ImageView
                 android:id="@+id/imgDeleteLS"
